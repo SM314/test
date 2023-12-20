@@ -1,0 +1,50 @@
+{
+  "@odata.context": "https://api-eu.securitycenter.windows.com/api/$metadata#Machines/$entity",
+  "id": "0000000000000000000000000000000000000000",
+  "mergedIntoMachineId": null,
+  "isPotentialDuplication": false,
+  "isExcluded": false,
+  "exclusionReason": null,
+  "computerDnsName": "xx000-000000000",
+  "firstSeen": "1111-11-11T11:11:11.0000000Z",
+  "lastSeen": "1111-11-11T11:11:11.0000000Z",
+  "osPlatform": "Windows11",
+  "osVersion": null,
+  "osProcessor": "x64",
+  "version": "22H2",
+  "lastIpAddress": "0.0.0.0",
+  "lastExternalIpAddress": "0.0.0.0",
+  "agentVersion": "10.8672.22621.2715",
+  "osBuild": 22621,
+  "healthStatus": "Active",
+  "deviceValue": "Normal",
+  "rbacGroupId": 1111,
+  "rbacGroupName": "XX000 - Tave",
+  "riskScore": "High",
+  "exposureLevel": "Medium",
+  "isAadJoined": true,
+  "aadDeviceId": "00000000-0000-0000-0000-000000000000",
+  "machineTags": [
+    "ABCD"
+  ],
+  "defenderAvStatus": "NotSupported",
+  "onboardingStatus": "Onboarded",
+  "osArchitecture": "64-bit",
+  "managedBy": "Intune",
+  "managedByStatus": "Unknown",
+  "ipAddresses": [
+    {
+      "ipAddress": "0.0.0.0",
+      "macAddress": "000000000000",
+      "type": "Ethernet",
+      "operationalStatus": "Down"
+    },
+    {
+      "ipAddress": "0.0.0.0",
+      "macAddress": "000000000000",
+      "type": "Ethernet",
+      "operationalStatus": "Down"
+    }
+  ],
+  "vmMetadata": null
+}
